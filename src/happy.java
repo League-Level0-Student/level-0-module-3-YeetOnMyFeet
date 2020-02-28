@@ -9,10 +9,13 @@ public static void main(String[] args) {
 		JOptionPane.showMessageDialog(null, "Keep doing what you are doing!");
 	}
 	if (firstq.equals("no")) {
-	String secondq = JOptionPane.showInputDialog("Do you want to be happy?");
+	JOptionPane.showInputDialog(secondq);
 	}
 	if (secondq.equals("no")) {
 		JOptionPane.showMessageDialog(null, "Keep doing what you are doing!");
+	}
+	if (secondq.equals("yes")) {
+		JOptionPane.showMessageDialog(null, "Change something!");
 	}
 	
 	
